@@ -29,6 +29,9 @@ Effectivly giving you a <strong>SPF-Free</strong> website, without breaking anyt
 <pre>
 Developer's HUB / Changelog
 
+1.2.1.3
+* execute code in blocking code-block, rendering will halt until exeuted. Good thing, more secure.
+
 1.2.1.1
 + inject fixing script to DOM, for specific window-SPF-like objects (heuristic) as queried from extension-context-scope.
 * accurate counter update per needed objects.
