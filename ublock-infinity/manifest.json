@@ -1,0 +1,56 @@
+{"manifest_version"        : 2
+,"minimum_chrome_version"  : "38.0"
+
+,"default_locale"          : "en_US"
+,"name"                    : "__MSG_name_long__"
+,"short_name"              : "__MSG_name_shrt__"
+,"description"             : "__MSG_name_desc__"
+
+,"version"                 : "1.13.7.100"
+,"homepage_url"            : "https://github.com/eladkarako/ublock-infinity"
+,"author"                  : "All uBlock Origin contributors"
+
+,"offline_enabled"         : true
+,"incognito"               : "split"
+
+,"optional_permissions"    : [ "file:///*"
+                             ]
+,"permissions"             : [ "<all_urls>"
+                              ,"contextMenus"
+                              ,"privacy"
+                              ,"storage"
+                              ,"tabs"
+                              ,"unlimitedStorage"
+                              ,"webNavigation"
+                              ,"webRequest"
+                              ,"webRequestBlocking"
+                             ]
+
+,"options_ui"               : { "page"       :  "options_ui.html" }
+,"options_page"             : "dashboard.html"
+                             
+,"background"               : { "page"       :  "background.html"
+                               ,"persistent" :  true 
+                              }
+
+
+,"content_scripts"          : [ {"js":  [ "js/vapi-client.js", "js/contentscript.js"  ], "all_frames": true,  "matches": [ "http://*/*", "https://*/*" ], "run_at": "document_start" }
+                              , {"js":  [ "js/scriptlets/subscriber.js"               ], "all_frames": false, "matches": [ "http://*/*", "https://*/*" ], "run_at": "document_idle"  }
+                              ]
+,"storage"                  : { "managed_schema"        : "managed_storage.json" }
+,"icons"                    : { "16"                    : "img/icon_16.png"
+                               ,"128"                   : "img/icon_128.png"
+                              }
+,"web_accessible_resources" : [
+                              ]
+
+,"browser_action"           : { "default_icon"          : {"19": "img/browsericons/icon19.png", "38": "img/browsericons/icon38.png"}
+                               ,"default_title"         : "uBlock Origin"
+                               ,"default_popup"         : "popup.html"
+                              }
+
+,"commands"                 : { "launch-element-zapper" : {"description": "__MSG_popupTipZapper__"}
+                               ,"launch-element-picker" : {"description": "__MSG_popupTipPicker__"}
+                               ,"launch-logger"         : {"description": "__MSG_popupTipLog__"   }
+                              }
+}
