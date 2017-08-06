@@ -12,6 +12,9 @@ For Disabling SPF, JS-Navigation and other dynamic page loading that uses the Hi
 <pre>
 Developer's HUB / Changelog
 
+1.0.0.4
+* changed to blocking code-block, to halt-rendering until executed (very early..)
+
 1.0.0.3
 + initial.
 </pre>
