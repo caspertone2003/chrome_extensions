@@ -33,6 +33,7 @@
 <br/><a href="Speedy-Rendering/"            ><img alt="" width="32" height="32" src="Speedy-Rendering/resources/icon.png"            /> Speedy-Rendering</a>
 <br/><a href="SpellCheck-Enabler/"          ><img alt="" width="32" height="32" src="SpellCheck-Enabler/resources/icon.png"          /> SpellCheck-Enabler</a>
 <br/><a href="SPF-Disabler/"                ><img alt="" width="32" height="32" src="SPF-Disabler/resources/icon.png"                /> SPF-Disabler</a>
+<br/><a href="ublock-infinity/"             ><img alt="" width="32" height="32" src="ublock-infinity/resources/icon.png"             /> ublock-infinity</a>
 <br/><a href="Tahoma-CourierNew/"           ><img alt="" width="32" height="32" src="Tahoma-CourierNew/resources/icon.png"           /> Tahoma-CourierNew</a>
 <br/><a href="Unicode/"                     ><img alt="" width="32" height="32" src="Unicode/resources/icon.png"                     /> Unicode</a>
 <br/><a href="UnLazy/"                      ><img alt="" width="32" height="32" src="UnLazy/resources/icon.png"                      /> UnLazy</a>
