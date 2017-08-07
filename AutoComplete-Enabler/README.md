@@ -48,6 +48,9 @@ to your command-line for <code>chrome.exe</code>.
 <pre>
 Developer's HUB / Changelog
 
+5.0.3.3
+* improved counter-code.
+
 5.0.3.2
 * improved engine, reverting to standard (non-passive) event handler to be compatible with older Chrome versions.
 + adding js-navigation/SPF dynamic page- triggers for main-fix action.
